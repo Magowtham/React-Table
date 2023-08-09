@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  border: 1px solid red;
+  min-width: 1000px;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+table th {
+  border: 1px solid black;
+  padding: 20px;
+  background: rgb(104, 144, 239);
+  color: white;
+}
+
+table td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+table tr:nth-child(even) {
+  background: rgb(210, 210, 210);
+}
